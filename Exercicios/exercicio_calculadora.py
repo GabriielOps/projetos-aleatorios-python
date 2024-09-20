@@ -56,7 +56,7 @@ while True:
 
     ## Sair
 
-    sair = input('Quer sair? [S]im:').lower().startswith()
+    sair = input('Quer sair? [S]im:').lower().startswith('s')
 
     if sair is True:
         break
